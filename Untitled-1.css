@@ -1,0 +1,131 @@
+
+
+ * {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     box-sizing: border-box;
+ } 
+body{
+    background-image: url(images/9.png);
+    background-size: cover;
+    background-position: contain;
+    background-attachment: scroll;
+}
+.heading{
+   box-sizing: border-box;
+   display: flex;
+   flex-flow: row;
+   height: 70px;
+   position: fixed;
+   background-image: url(images/10.png);
+   border-radius: 15px;
+} 
+.logo-{
+   align-content: flex-start;
+   align-items: flex-start;
+   width: 900px;
+}
+.logo{
+   width: 50px;
+   margin-left: 50px;
+   margin-top: 5px;
+}
+.buttons{
+   margin-top: 30px;
+   width: 419px;
+}
+button{
+   border-style: groove;
+   background-color: aliceblue;
+}
+.Contact{
+   border: 1px wheat;
+   border-radius: 25%
+}
+button{
+    background: none;
+    border: 1px dotted black;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+.introducing{
+   box-sizing: border-box;
+   flex-flow: column;
+   padding-top: 100px;
+   margin-left: 50px;
+   
+}
+.write{
+
+}
+hr{
+    width: 70px;
+    float: left;
+    color:blue;
+    height: 5px;
+    font-weight: 2000;
+}
+.links{
+    display: flex;
+    flex-flow: row;
+    padding-left: 40px;
+}
+.logo1{
+    width: 80px;
+    height: 30px;
+    padding: 4px;
+    cursor: pointer;
+}
+.logo2{
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+.Services{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.head{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+.tables{
+    display: flex;
+    flex-direction: row;  
+    box-align: center;
+    margin-left: 290px;
+}
+.in-details{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    box-shadow: 50cm;
+    min-width: 200px;
+    background-image: url(images/11.png);
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    margin-bottom: -20px;
+}
+.sec-button{
+    border-color: black;
+    background-color: rgb(168, 204, 192);
+    margin-bottom: 5px;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.Description{
+    margin: 15px;
+}
+
